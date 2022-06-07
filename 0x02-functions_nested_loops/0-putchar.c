@@ -1,20 +1,16 @@
-#include "main.h"
+#include "Betty.h"
 /**
- * main - Prints Holberton
+ * main - Prints Betty
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	_putchar('H');
-	_putchar('o');
-	_putchar('l');
-	_putchar('b');
+	_putchar('B');
 	_putchar('e');
-	_putchar('r');
 	_putchar('t');
-	_putchar('o');
-	_putchar('n');
+	_putchar('t');
+	_putchar('y');
 	_putchar('\n');
 	return (0);
 }
