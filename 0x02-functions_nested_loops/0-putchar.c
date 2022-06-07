@@ -1,16 +1,21 @@
-#include "Betty.h"
+#include"main.h"
+
 /**
- * main - Prints Betty
+ * main - Entry point
+ *
+ * Description: prints _putchar using putchar prototype
  *
  * Return: Always 0 (Success)
- */
+*/
+
 int main(void)
 {
-	_putchar('B');
-	_putchar('e');
-	_putchar('t');
-	_putchar('t');
-	_putchar('y');
+	char str[] = "_putchar";
+	int ch;
+
+	for (ch = 0; ch < 8; ++ch)
+		_putchar(str[ch]);
 	_putchar('\n');
+
 	return (0);
 }
